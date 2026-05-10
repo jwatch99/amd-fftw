@@ -5,6 +5,7 @@ on:
     branches: [ "amd-fftw" ]
   pull_request:
     branches: [ "amd-fftw" ]
+  workflow_dispatch:
 
 jobs:
   build:
